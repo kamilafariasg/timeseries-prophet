@@ -1,1 +1,5 @@
-# timeseries-prophet
+# Modelando Série de Venda de Champagne no Prophet¶
+
+O objetivo desse projeto é utilizar a biblioteca Prophet para gerar previsões da série de venda de champagne, que é um tipo de vinho produzido na região Francesa.
+
+O Prophet é um software de código aberto lançado pela equipe Core Data Science do Facebook e está disponível nas linguagens de programação:Python e R. É uma biblioteca do Facebook usada para fazer previsão de dados de séries temporais baseada em um modelo aditivo, onde as tendências não lineares são adaptadas com sua sazonalidade, seja ela diária, semanal, anual ou, até mesmo, nos efeitos de feriados. Esse procedimento é um modelo de regressão aditivo decomposto com três principais componentes do modelo: tendência, sazonalidade e feriados. Algumas características em destaques são sobre ser: preciso e rápido, usando um baixo poder computacional; Robusto para dados ausentes e alterações na tendência, e geralmente lida bem com outliers; Procedimento simples para ajuste(ajustes esses realizados através de parâmetros intuitivos que são fáceis de sintonizar); Inteiramente automatizado, ou seja, desempenha uma boa previsão sem muito esforço manual.
